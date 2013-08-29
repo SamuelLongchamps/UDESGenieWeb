@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<html>
+<head>
+<!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+<!--[if IE]><link rel="SHORTCUT ICON" href="images/favicon.ico"/><![endif]-->
+<!--[if !IE 7]> <style type="text/css"> #wrapper {display:table;height:100%;width:100%} </style> <![endif]-->
+<meta property="og:title"            content="GI-S3 AU13" /> 
+<meta property="og:image"            content="[icone touch]" /> 
+<meta property="og:description"      content="DESCRIPTION" />
+<link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="top">
+		<div id="topContent">
+			Université de Sherbrooke - GI-S3 AU13
+		</div><!--END TOP_CONTENT-->
+	</div><!--END TOP-->
+	<div id="verticalSpacer"></div><!--END VERTICAL_SPACER-->
+	<div id="navigation">
+		<div id="navigationWrapper">
+			<div id="navigationTopLeft">
+				<span id="navigationLogo">
+					<a href="index.html"><img onmouseover="this.src='images/logo_promo58_hover.png'" 
+										  onmouseout="this.src='images/logo_promo58.png'"
+										  style="background-image:url('images/logo_promo58.png')"
+										  src="images/logo_promo58.png"></a>
+				</span><!--END NAVIGATION_LOGO-->
+				<span id="navigationCentre">
+					<img style="margin-right:5px;" src="images/projet_image.png">
+				</span>
+			</div><!--END NAVIGATION_TOP_LEFT-->
+			<div id="navigationTopRight>
+				<span id="navigationDroite">
+					<h2>Description</h2>
+					<h1>
+						Élément de droite qui s'éternise pas mal et qui, tant qu'à s'éterniser, se dit "pourquoi arrêter là?" et continu sans cesse d'élaborer en d'incroyables dénouements remplis de contenu significatif et insurmontables.
+						
+					</h1>
+				</span><!--END NAVIGATION_DROITE-->
+			</div><!--END NAVIGATION_TOP_RIGHT-->
+		</div><!--END NAVIGATION_WRAPPER-->
+		<div id="navigationContenu">
+			<iframe src="menu_app.html" width="405px" height="18pt" style="margin-top:0px;overflow:hidden;" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" seamless></iframe>
+			<div id="linksBar">
+				<p style="font-size:10px">
+				<input type="button" style="width:90px; height:26px; font-size:8pt;"
+				onclick="
+				var id = document.getElementById('frameUdeSWeb');
+				if(id.style.display == 'block')
+					id.style.display = 'none';
+				else
+					id.style.display = 'block';
+				" value="Département" />
+				<input type="button" style="width:50px; height:26px; font-size:8pt;"
+				onclick="
+				var id = document.getElementById('frameUdeSWeb2');
+				if(id.style.display == 'block')
+					id.style.display = 'none';
+				else
+					id.style.display = 'block';
+				" value="UdeS" />
+				<a href="https://www.gel.usherbrooke.ca/reservation/reservation.php" target="_blank">Réservation de Locaux</a></p>
+			</div><!--END LINKS_BAR-->
+		</div><!--END NAVIGATION_CONTENU-->
+	</div><!--END NAVIGATION-->
+	<div id="verticalSpacer"></div><!--END VERTICAL_SPACER-->
+	<div id="verticalSeparator"></div><!--END VERTICAL_SEPARATOR-->
+	<!--**********SECTION CONTENU**********-->
+	<div id="frameUdeSWeb">
+		<iframe src="http://www.gel.usherbrooke.ca/s3info/a13/" width="100%" height="600px" seamless id="udesweb""></iframe>
+	</div><!--END FRAME_UDES_WEB-->
+	<div id="frameUdeSWeb2">
+		<iframe src="http://www.gel.usherbrooke.ca/" width="100%" height="600px" almost-seamless id="udesweb2""></iframe>
+	</div><!--END FRAME_UDES_WEB2-->
+	<div id="borderTop"></div><!--END VERTICAL_SPACER-->
+	<div id="titreContenu">
+		<span id="contenuAlign">
+			TITRE
+		</span><!--END CONTENU_ALIGN-->
+	</div><!--END TITRE_CONTENU-->
+	<div id="contenu">
+		<span id="contenuAlign">
+			CONTENU<br><br><br>
+		</span><!--END CONTENU_ALIGN-->
+	</div><!--END CONTENU-->
+	<div id="borderBottom"></div><!--END BORDER_BOTTOM-->
+	<br><br>
+</div><!--END WRAPPER-->
+<div id="footer">
+	(c) Samuel Longchamps 2013
+</div><!--END footer-->
+</body>
+</html>
